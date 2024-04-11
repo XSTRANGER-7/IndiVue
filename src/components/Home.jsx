@@ -8,7 +8,7 @@ import img4 from "../assets/img4.jpg";
 import img5 from "../assets/img5.png";
 import imgs from "../assets/imgs.jpg";
 import imgy from "../assets/imgy.png";
-import imgr from "../assets/imgr.jpg";
+import imgr from "../assets/imgr.png";
 import imgv from "../assets/imgv.jpg";
 
 function Home() {
@@ -558,11 +558,11 @@ return (
               </ul>
             </div>
             <div className="text-center text-gray-500 dark:text-gray-400">
-              <img className="mx-auto mb-4 w-36 h-36 rounded-full object-fill" src={imgr} alt="Joseph Avatar" />
+              <img className="mx-auto mb-4 w-36 h-36 rounded-full object-cover" src={imgr} alt="Joseph Avatar" />
               <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                <a href="#">Raj Singh</a>
+                <a href="#">Radhika Saxena</a>
               </h3>
-              <p>AR/VR</p>
+              <p>Machine Learning</p>
               <ul className="flex justify-center mt-4 space-x-4">
                 <li>
                   <a href="#" className="text-[#39569c] hover:text-gray-900 dark:hover:text-white">
