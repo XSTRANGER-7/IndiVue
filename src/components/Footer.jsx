@@ -8,7 +8,7 @@ const Footer = () => {
                     <div className="mb-6 md:mb-0">
                         <a href="https://flowbite.com" className="flex items-center">
                             <img src="https://flowbite.com/docs/images/logo.svg" className="mr-3 h-8" alt="FlowBite Logo" />
-                            <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Tranquil Trails</span>
+                            <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Agora Cognito</span>
                         </a>
                     </div>
                     <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
@@ -49,7 +49,7 @@ const Footer = () => {
                 </div>
                 <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
                 <div className="sm:flex sm:items-center sm:justify-between">
-                    <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2022 <a href="https://flowbite.com" className="hover:underline">Tranquil Trails™</a>. All Rights Reserved.</span>
+                    <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 <a href="https://flowbite.com" className="hover:underline">Agora Cognito™</a>. All Rights Reserved.</span>
                     <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
                         <a href="#" className="text-gray-500 hover:text-gray-900 dark:hover:text-white">
                             <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
