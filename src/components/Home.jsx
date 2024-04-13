@@ -2,8 +2,8 @@ import {Carousel} from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; 
 import "../styles/home.css";
 import img from "../assets/img.jpg";
-import img2 from "../assets/img2.webp";
-import img3 from "../assets/img3.webp"; 
+import img2 from "../assets/img2.jpg";
+import img3 from "../assets/img3.jpg"; 
 import img4 from "../assets/img4.jpg";
 import img5 from "../assets/img5.png";
 import imgs from "../assets/imgs.jpg";
@@ -48,11 +48,10 @@ return (
   <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
     <div className="mr-auto place-self-center lg:col-span-7">
       <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
-        Face Detection ML Model
+        VR Meetings room for your team !
       </h1>
       <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
-        From checkout to global sales tax compliance, companies around the world
-        use Flowbite to simplify their payment stack.
+      Elevate your team's collaboration and unlock the power of VR!  Tired of impersonal video conferences?  Our state-of-the-art VR meeting rooms provide a truly immersive experience, fostering stronger connections and real-time presence for your employees.  But we go beyond presence.  By harnessing machine learning, we analyze attendee expressions and key moments, generating insightful reports that capture the full scope of your discussions.  This translates to streamlined communication, deeper engagement, and actionable post-meeting intelligence – a complete solution designed to empower your workforce and propel your business forward.
       </p>
       <a
         href="#"
@@ -76,7 +75,7 @@ return (
         href="#"
         className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
       >
-        Speak to Sales
+        Speak to us
       </a>
     </div>
     <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
@@ -96,18 +95,13 @@ return (
   <div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
     <div className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
       <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
-        We didn't reinvent the wheel
+        Embrace the future of meetings and worker's opinions !
       </h2>
       <p className="mb-4">
-        We are strategists, designers and developers. Innovators and problem
-        solvers. Small enough to be simple and quick, but big enough to deliver
-        the scope you want at the pace you need. Small enough to be simple and
-        quick, but big enough to deliver the scope you want at the pace you
-        need.
+      Streamline the hiring process and empower your people!  Imagine a world where employee and manager ideas undergo a transparent, peer-driven voting system.  These insights can then be further explored in dynamic VR discussion rooms, culminating in comprehensive reports that capture the full spectrum of your workforce's valuable perspectives.  
       </p>
       <p>
-        We are strategists, designers and developers. Innovators and problem
-        solvers. Small enough to be simple and quick.
+      By embracing this collaborative approach, you unlock the collective genius of your team, ensuring every voice shapes strategic decisions.  This, HR, is the breeding ground for industry giants!
       </p>
     </div>
     <div className="grid grid-cols-2 gap-4 mt-8">
@@ -134,8 +128,7 @@ return (
         Designed for business teams like yours
       </h2>
       <p className="mb-5 font-light text-gray-500 sm:text-xl dark:text-gray-400">
-        Here at Flowbite we focus on markets where technology, innovation, and
-        capital can unlock long-term value and drive economic growth.
+        Here, we focus on transparent opinions where technology, people, and data converge.  We offer a range of pricing options to suit your business needs.
       </p>
     </div>
     <div className="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
@@ -143,113 +136,7 @@ return (
       <div className="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
         <h3 className="mb-4 text-2xl font-semibold">Starter</h3>
         <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
-          Best option for personal use &amp; for your next project.
-        </p>
-        <div className="flex justify-center items-baseline my-8">
-          <span className="mr-2 text-5xl font-extrabold">$29</span>
-          <span className="text-gray-500 dark:text-gray-400">/month</span>
-        </div>
-        {/* List */}
-        <ul role="list" className="mb-8 space-y-4 text-left">
-          <li className="flex items-center space-x-3">
-            {/* Icon */}
-            <svg
-              className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
-              fill="currentColor"
-              viewBox="0 0 20 20"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                fillRule="evenodd"
-                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                clipRule="evenodd"
-              />
-            </svg>
-            <span>Individual configuration</span>
-          </li>
-          <li className="flex items-center space-x-3">
-            {/* Icon */}
-            <svg
-              className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
-              fill="currentColor"
-              viewBox="0 0 20 20"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                fillRule="evenodd"
-                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                clipRule="evenodd"
-              />
-            </svg>
-            <span>No setup, or hidden fees</span>
-          </li>
-          <li className="flex items-center space-x-3">
-            {/* Icon */}
-            <svg
-              className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
-              fill="currentColor"
-              viewBox="0 0 20 20"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                fillRule="evenodd"
-                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                clipRule="evenodd"
-              />
-            </svg>
-            <span>
-              Team size: <span className="font-semibold">1 developer</span>
-            </span>
-          </li>
-          <li className="flex items-center space-x-3">
-            {/* Icon */}
-            <svg
-              className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
-              fill="currentColor"
-              viewBox="0 0 20 20"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                fillRule="evenodd"
-                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                clipRule="evenodd"
-              />
-            </svg>
-            <span>
-              Premium support: <span className="font-semibold">6 months</span>
-            </span>
-          </li>
-          <li className="flex items-center space-x-3">
-            {/* Icon */}
-            <svg
-              className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
-              fill="currentColor"
-              viewBox="0 0 20 20"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                fillRule="evenodd"
-                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                clipRule="evenodd"
-              />
-            </svg>
-            <span>
-              Free updates: <span className="font-semibold">6 months</span>
-            </span>
-          </li>
-        </ul>
-        <a
-          href="#"
-          className="text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900"
-        >
-          Get started
-        </a>
-      </div>
-      {/* Pricing Card */}
-      <div className="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
-        <h3 className="mb-4 text-2xl font-semibold">Company</h3>
-        <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
-          Relevant for multiple users, extended &amp; premium support.
+          Best option for small teams.
         </p>
         <div className="flex justify-center items-baseline my-8">
           <span className="mr-2 text-5xl font-extrabold">$99</span>
@@ -304,7 +191,7 @@ return (
               />
             </svg>
             <span>
-              Team size: <span className="font-semibold">10 developers</span>
+              Team size: <span className="font-semibold">upto 5 people</span>
             </span>
           </li>
           <li className="flex items-center space-x-3">
@@ -322,7 +209,7 @@ return (
               />
             </svg>
             <span>
-              Premium support: <span className="font-semibold">24 months</span>
+              Premium support: <span className="font-semibold">4 months</span>
             </span>
           </li>
           <li className="flex items-center space-x-3">
@@ -340,7 +227,7 @@ return (
               />
             </svg>
             <span>
-              Free updates: <span className="font-semibold">24 months</span>
+              Free updates: <span className="font-semibold">4 months</span>
             </span>
           </li>
         </ul>
@@ -353,9 +240,9 @@ return (
       </div>
       {/* Pricing Card */}
       <div className="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
-        <h3 className="mb-4 text-2xl font-semibold">Enterprise</h3>
+        <h3 className="mb-4 text-2xl font-semibold">Gold</h3>
         <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
-          Best for large scale uses and extended redistribution rights.
+          Relevant for multiple users, extended &amp; premium support.
         </p>
         <div className="flex justify-center items-baseline my-8">
           <span className="mr-2 text-5xl font-extrabold">$499</span>
@@ -410,7 +297,113 @@ return (
               />
             </svg>
             <span>
-              Team size: <span className="font-semibold">100+ developers</span>
+              Team size: <span className="font-semibold">upto 15 people</span>
+            </span>
+          </li>
+          <li className="flex items-center space-x-3">
+            {/* Icon */}
+            <svg
+              className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fillRule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                clipRule="evenodd"
+              />
+            </svg>
+            <span>
+              Premium support: <span className="font-semibold"> 12 months</span>
+            </span>
+          </li>
+          <li className="flex items-center space-x-3">
+            {/* Icon */}
+            <svg
+              className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fillRule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                clipRule="evenodd"
+              />
+            </svg>
+            <span>
+              Free updates: <span className="font-semibold">12 months</span>
+            </span>
+          </li>
+        </ul>
+        <a
+          href="#"
+          className="text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900"
+        >
+          Get started
+        </a>
+      </div>
+      {/* Pricing Card */}
+      <div className="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
+        <h3 className="mb-4 text-2xl font-semibold">Platinum</h3>
+        <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
+          Best for large scale uses and extended redistribution rights.
+        </p>
+        <div className="flex justify-center items-baseline my-8">
+          <span className="mr-2 text-5xl font-extrabold">$999</span>
+          <span className="text-gray-500 dark:text-gray-400">/month</span>
+        </div>
+        {/* List */}
+        <ul role="list" className="mb-8 space-y-4 text-left">
+          <li className="flex items-center space-x-3">
+            {/* Icon */}
+            <svg
+              className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fillRule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                clipRule="evenodd"
+              />
+            </svg>
+            <span>Individual configuration</span>
+          </li>
+          <li className="flex items-center space-x-3">
+            {/* Icon */}
+            <svg
+              className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fillRule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                clipRule="evenodd"
+              />
+            </svg>
+            <span>No setup, or hidden fees</span>
+          </li>
+          <li className="flex items-center space-x-3">
+            {/* Icon */}
+            <svg
+              className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fillRule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                clipRule="evenodd"
+              />
+            </svg>
+            <span>
+              Team size: <span className="font-semibold">upto 25 people</span>
             </span>
           </li>
           <li className="flex items-center space-x-3">
@@ -558,11 +551,11 @@ return (
               </ul>
             </div>
             <div className="text-center text-gray-500 dark:text-gray-400">
-              <img className="mx-auto mb-4 w-36 h-36 rounded-full object-cover" src={imgr} alt="Joseph Avatar" />
+              <img className="mx-auto mb-4 w-36 h-36 rounded-full object-cover" src={imgr} />
               <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                <a href="#">Radhika Saxena</a>
+                <a href="#">Raj Singh</a>
               </h3>
-              <p>Machine Learning</p>
+              <p>AR-VR</p>
               <ul className="flex justify-center mt-4 space-x-4">
                 <li>
                   <a href="#" className="text-[#39569c] hover:text-gray-900 dark:hover:text-white">
