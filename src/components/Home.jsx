@@ -8,7 +8,7 @@ import img4 from "../assets/img4.jpg";
 import img5 from "../assets/img5.png";
 import imgs from "../assets/imgs.jpg";
 import imgy from "../assets/imgy.png";
-import imgr from "../assets/imgr.png";
+import imgr from "../assets/imgr.jpg";
 import imgv from "../assets/imgv.jpg";
 
 function Home() {
@@ -31,7 +31,7 @@ return (
                         src={img3}
                         alt="img"
                     />
-                    <p className="legend">Secure Your Data</p>
+                    {/* <p className="legend">Secure Your Data</p> */}
                 </div>
                 <div>
                     <img src={img2} alt="img" />
