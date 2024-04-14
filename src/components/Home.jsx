@@ -31,7 +31,7 @@ return (
                         src={img3}
                         alt="img"
                     />
-                    {/* <p className="legend">Secure Your Data</p> */}
+                    <p className="legend">Secure Your Data</p>
                 </div>
                 <div>
                     <img src={img2} alt="img" />
