@@ -1,0 +1,10 @@
+Name:vinayak, Choice:sarthak
+Name:vinayak, Choice:sarthak
+Name:vinayak, Choice:vinayak
+Name:hello, Choice:yash
+Name:sarthak, Choice:vinayak
+Name:Sarthak Gupta, Choice:yash
+Name:Sarthak Gupta, Choice:Improve cross-departmental communication
+Name:VIKRAM sINGH, Choice:Project management tools (e.g., Asana, Trello)
+Name:Sarthak Gupta, Choice:Standardize documentation and workflows
+Name:VIKRAM sINGH, Choice:Utilize collaboration tools (e.g., Slack, Microsoft Teams)
