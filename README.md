@@ -1,18 +1,43 @@
-# Getting Started with Create React App
+<h1> STEPS TO SETUP </h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+```
+npm i
+```
+```
+pip install django
+```
 
-## Available Scripts
+## Run Command
 
 In the project directory, you can run:
 
-### `npm start`
+### For Windows
+
+```
+start run.bat
+```
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The page will reload when you make changes.\ 
+
+### For Linux
+
+#### In first Terminal
+```
+npm start
+```
+Runs the app in the development mode.\
+It will Open Automatically Otherwise, Open this [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The page will reload when you make changes.\ 
+
+#### In Second Terminal
+```
+python3 manage.py runserver 
+```
+Launched the Python Server
+
 
 ### `npm test`
 
